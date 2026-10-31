@@ -1,5 +1,5 @@
 {
-  "description": "FullbleedPano player layout for Compás R1/R3. No V1 variant is supplied.",
+  "description": "Panoramic Fullbleed player layout with faded artwork and playback controls.",
   "category": "Customization",
   "author": "Reddit @nigthdriveavenger",
   "preview": "preview.png",
@@ -12,6 +12,14 @@
     {
       "src": "player_layouts/FullbleedPano_320x480.xml",
       "dest": ".plugins/FullbleedPano/player_layouts/FullbleedPano_320x480.xml"
+    },
+    {
+      "src": "player_layouts/FullbleedPano_240x320.xml",
+      "dest": ".plugins/FullbleedPano/player_layouts/FullbleedPano_240x320.xml"
+    },
+    {
+      "src": "player_layouts/FullbleedPano/v1_back.png",
+      "dest": ".plugins/FullbleedPano/player_layouts/FullbleedPano/v1_back.png"
     },
     {
       "src": "player_layouts/FullbleedPano_480x720.xml",

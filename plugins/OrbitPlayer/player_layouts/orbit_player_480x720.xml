@@ -7,9 +7,9 @@
         <lv_obj name="dismiss_btn" x="8" y="32" width="44" height="44" scrollable="false" style_bg_opa="0" style_border_width="0" style_pad_all="0">
             <lv_image name="dismiss_icon" src="btn_back" x="10" y="10" width="24" height="24" inner_align="contain" />
         </lv_obj>
-        <lv_label name="title" text="" x="24" y="462" width="432" height="36" style_text_font="player_title" style_text_align="center" style_pad_all="0" />
-        <lv_label name="artist" text="" x="24" y="502" width="432" height="28" style_text_font="player_meta" style_text_align="center" style_pad_all="0" />
-        <lv_label name="album" text="" x="24" y="534" width="432" height="28" style_text_font="player_meta" style_text_align="center" style_pad_all="0" />
+        <lv_label name="title" text="" x="24" y="462" width="432" height="content" style_text_font="player_title" style_text_align="center" style_pad_all="0" />
+        <lv_label name="artist" text="" x="24" y="502" width="432" height="content" style_text_font="player_meta" style_text_align="center" style_pad_all="0" />
+        <lv_label name="album" text="" x="24" y="534" width="432" height="content" style_text_font="player_meta" style_text_align="center" style_pad_all="0" />
         <lv_label name="song_count" text="" x="24" y="564" width="64" height="28" style_text_font="player_meta" style_pad_all="0" />
         <lv_obj name="quality_pill" x="88" y="564" width="304" height="28" scrollable="false" style_bg_opa="0" style_border_width="0" style_pad_all="0" clickable="false">
             <lv_label name="format_badge" text="" x="0" y="0" width="100%" height="28" style_text_font="player_meta" style_text_align="center" style_pad_all="0" />

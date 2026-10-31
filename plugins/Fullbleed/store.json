@@ -1,5 +1,5 @@
 {
-  "description": "Fullbleed player layout for Compás R1/R3. No V1 variant is supplied.",
+  "description": "Fullbleed player layout with a screen-sized artwork background and playback controls.",
   "category": "Customization",
   "author": "Reddit @nigthdriveavenger",
   "preview": "preview.png",
@@ -12,6 +12,14 @@
     {
       "src": "player_layouts/fullbleed_320x480.xml",
       "dest": ".plugins/Fullbleed/player_layouts/fullbleed_320x480.xml"
+    },
+    {
+      "src": "player_layouts/fullbleed_240x320.xml",
+      "dest": ".plugins/Fullbleed/player_layouts/fullbleed_240x320.xml"
+    },
+    {
+      "src": "player_layouts/fullbleed/v1_back.png",
+      "dest": ".plugins/Fullbleed/player_layouts/fullbleed/v1_back.png"
     },
     {
       "src": "player_layouts/fullbleed_480x720.xml",

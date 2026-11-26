@@ -1,4 +1,4 @@
-plugin.define({ id = "example.kidsmode", name = "Kids Mode", version = "3.2.0", api_min = 19 })
+plugin.define({ id = "example.kidsmode", name = "Kids Mode", version = "3.2.1", api_min = 19 })
 
 local T = {
     de = {
@@ -67,6 +67,9 @@ local T = {
         ["Unable to open PIN entry"] = "PIN-Eingabe konnte nicht geöffnet werden",
         ["Parent PIN"] = "Eltern-PIN",
         ["Incorrect PIN"] = "Falsche PIN",
+        ["Picture-Only Music Menu"] = "Nur-Bild Musik Menü",
+        ["Limits:"] = "Einschränkungen:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Das Nur-Bild Musik Menü erlaubt eine <Titel>.png-Datei neben jedem Titel, damit Kinder, die noch nicht lesen können, ihn finden. Hinweis: Menüs mit vielen Bildern beanspruchen die Leistung stark. Achte darauf, dass die Bibliothek nicht zu groß ist und die Bilder und Cover palettiert und klein sind.",
     },
     es = {
         ["Kids Mode"] = "Modo infantil",
@@ -134,6 +137,9 @@ local T = {
         ["Unable to open PIN entry"] = "No se pudo abrir la entrada de PIN",
         ["Parent PIN"] = "PIN parental",
         ["Incorrect PIN"] = "PIN incorrecto",
+        ["Picture-Only Music Menu"] = "Menú de música solo con imágenes",
+        ["Limits:"] = "Límites:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "El menú de música solo con imágenes permite tener un archivo <pista>.png junto a cada pista para ayudar a los niños que no saben leer. Nota: los menús con muchas imágenes consumen mucho rendimiento; asegúrate de que la biblioteca no sea demasiado grande y de que las imágenes y portadas estén paletizadas y sean pequeñas.",
     },
     fi = {
         ["Kids Mode"] = "Lasten tila",
@@ -201,6 +207,9 @@ local T = {
         ["Unable to open PIN entry"] = "PIN-syötön avaaminen epäonnistui",
         ["Parent PIN"] = "Vanhempien PIN",
         ["Incorrect PIN"] = "Väärä PIN",
+        ["Picture-Only Music Menu"] = "Pelkkiä kuvia sisältävä musiikkivalikko",
+        ["Limits:"] = "Rajoitukset:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Pelkkiä kuvia sisältävä musiikkivalikossa jokaisen kappaleen vieressä voi olla <kappale>.png-tiedosto, joka auttaa lapsia, jotka eivät vielä osaa lukea. Huomaa: kuvapainotteiset valikot kuormittavat laitetta; varmista, ettei kirjasto ole liian suuri ja että kuvat ja kansikuvat ovat paletoituja ja pieniä.",
     },
     fr = {
         ["Kids Mode"] = "Mode Enfant",
@@ -268,6 +277,9 @@ local T = {
         ["Unable to open PIN entry"] = "Impossible d'ouvrir la saisie du code PIN",
         ["Parent PIN"] = "Code PIN parent",
         ["Incorrect PIN"] = "Code PIN incorrect",
+        ["Picture-Only Music Menu"] = "Menu musique en images uniquement",
+        ["Limits:"] = "Limites :",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Le menu musique en images uniquement permet d'avoir un fichier <piste>.png à côté de chaque piste pour aider les enfants qui ne savent pas lire. Remarque : les menus riches en images sollicitent fortement les performances ; veillez à ce que la bibliothèque ne soit pas trop grande et que les images et pochettes soient palettisées et petites.",
     },
     it = {
         ["Kids Mode"] = "Modalità Bambini",
@@ -335,6 +347,9 @@ local T = {
         ["Unable to open PIN entry"] = "Impossibile aprire l'inserimento del PIN",
         ["Parent PIN"] = "PIN genitori",
         ["Incorrect PIN"] = "PIN errato",
+        ["Picture-Only Music Menu"] = "Menu musica solo immagini",
+        ["Limits:"] = "Limiti:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Il menu musica solo immagini consente di avere un file <brano>.png accanto a ogni brano per aiutare i bambini che non sanno leggere. Nota: i menu ricchi di immagini pesano sulle prestazioni; assicurati che la libreria non sia troppo grande e che immagini e copertine siano palettizzate e piccole.",
     },
     ja = {
         ["Kids Mode"] = "キッズモード",
@@ -402,6 +417,9 @@ local T = {
         ["Unable to open PIN entry"] = "PIN 入力を開けません",
         ["Parent PIN"] = "保護者 PIN",
         ["Incorrect PIN"] = "PIN が正しくありません",
+        ["Picture-Only Music Menu"] = "画像のみの音楽メニュー",
+        ["Limits:"] = "制限:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "画像のみの音楽メニューでは、各曲の横に <曲名>.png ファイルを置くことで、文字が読めないお子様を助けられます。注意: 画像が多いメニューは動作が重くなります。ライブラリが大きすぎないようにし、画像とカバーはパレット化した小さなものにしてください。",
     },
     nl = {
         ["Kids Mode"] = "Kindermodus",
@@ -469,6 +487,9 @@ local T = {
         ["Unable to open PIN entry"] = "Kan PIN-invoer niet openen",
         ["Parent PIN"] = "Ouder-PIN",
         ["Incorrect PIN"] = "Onjuiste PIN",
+        ["Picture-Only Music Menu"] = "Muziekmenu met alleen afbeeldingen",
+        ["Limits:"] = "Beperkingen:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Met het muziekmenu met alleen afbeeldingen kun je naast elk nummer een <nummer>.png-bestand plaatsen om kinderen te helpen die nog niet kunnen lezen. Let op: menu's met veel afbeeldingen zijn zwaar voor de prestaties; zorg dat de bibliotheek niet te groot is en dat de afbeeldingen en covers gepalettiseerd en klein zijn.",
     },
     pt = {
         ["Kids Mode"] = "Modo Infantil",
@@ -536,6 +557,9 @@ local T = {
         ["Unable to open PIN entry"] = "Não foi possível abrir a entrada de PIN",
         ["Parent PIN"] = "PIN dos pais",
         ["Incorrect PIN"] = "PIN incorreto",
+        ["Picture-Only Music Menu"] = "Menu de música só com imagens",
+        ["Limits:"] = "Limites:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "O menu de música só com imagens permite ter um arquivo <faixa>.png ao lado de cada faixa para ajudar crianças que ainda não sabem ler. Nota: menus com muitas imagens exigem muito desempenho; certifique-se de que a biblioteca não seja grande demais e de que as imagens e capas sejam paletizadas e pequenas.",
     },
     ru = {
         ["Kids Mode"] = "Детский режим",
@@ -603,6 +627,9 @@ local T = {
         ["Unable to open PIN entry"] = "Не удалось открыть ввод PIN",
         ["Parent PIN"] = "Родительский PIN",
         ["Incorrect PIN"] = "Неверный PIN",
+        ["Picture-Only Music Menu"] = "Музыкальное меню только с картинками",
+        ["Limits:"] = "Ограничения:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Музыкальное меню только с картинками позволяет разместить рядом с каждым треком файл <трек>.png, чтобы помочь детям, которые ещё не умеют читать. Примечание: меню с большим количеством картинок сильно нагружает устройство; следите, чтобы медиатека была не слишком большой, а изображения и обложки были палитровыми и небольшими.",
     },
     uk = {
         ["Kids Mode"] = "Дитячий режим",
@@ -670,6 +697,9 @@ local T = {
         ["Unable to open PIN entry"] = "Не вдалося відкрити введення PIN",
         ["Parent PIN"] = "Батьківський PIN",
         ["Incorrect PIN"] = "Неправильний PIN",
+        ["Picture-Only Music Menu"] = "Музичне меню лише з картинками",
+        ["Limits:"] = "Обмеження:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Музичне меню лише з картинками дозволяє розмістити поруч із кожним треком файл <трек>.png, щоб допомогти дітям, які ще не вміють читати. Примітка: меню з великою кількістю зображень сильно навантажує пристрій; стежте, щоб медіатека була не надто великою, а зображення й обкладинки були палітровими та невеликими.",
     },
     vi = {
         ["Kids Mode"] = "Chế độ Trẻ em",
@@ -737,6 +767,9 @@ local T = {
         ["Unable to open PIN entry"] = "Không thể mở ô nhập mã PIN",
         ["Parent PIN"] = "Mã PIN Phụ huynh",
         ["Incorrect PIN"] = "Mã PIN không đúng",
+        ["Picture-Only Music Menu"] = "Menu nhạc chỉ có hình ảnh",
+        ["Limits:"] = "Giới hạn:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "Menu nhạc chỉ có hình ảnh cho phép đặt tệp <bài hát>.png bên cạnh mỗi bài hát để giúp trẻ chưa biết đọc. Lưu ý: menu nhiều hình ảnh tốn nhiều hiệu năng; hãy đảm bảo thư viện không quá lớn và hình ảnh, ảnh bìa được palette hóa và có kích thước nhỏ.",
     },
     zh_CN = {
         ["Kids Mode"] = "儿童模式",
@@ -771,7 +804,7 @@ local T = {
         ["Unable to encode Kids Mode settings"] = "无法编码儿童模式设置",
         ["Unable to save Kids Mode settings"] = "无法保存儿童模式设置",
         ["This player cannot customize Home"] = "此播放器无法自定义主屏幕",
-        ["This player cannot customize Music menus"] = "此播放器无法自定义音乐菜单",
+        ["This player cannot customize Music menus"] = "此播放器无法纯图片音乐菜单",
         ["This player cannot customize the Quick Drawer"] = "此播放器无法自定义快捷抽屉",
         ["Update Compás to edit item order"] = "请更新 Compás 以编辑项目顺序",
         ["Invalid item order"] = "无效的项目顺序",
@@ -804,6 +837,9 @@ local T = {
         ["Unable to open PIN entry"] = "无法打开 PIN 码输入",
         ["Parent PIN"] = "家长 PIN 码",
         ["Incorrect PIN"] = "PIN 码不正确",
+        ["Picture-Only Music Menu"] = "纯图片音乐菜单",
+        ["Limits:"] = "限制:",
+        ["Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."] = "自定义音乐菜单允许在每首曲目旁放置一个 <曲目>.png 文件，帮助还不会阅读的孩子。注意: 图片较多的菜单对性能要求较高，请确保媒体库不要太大，并且图片和封面经过调色板化且尺寸较小。",
     },
 }
 
@@ -868,6 +904,7 @@ local function defaults()
             "remote_control", "car_mode", "plugins" },
         drawer_order = { "wifi", "bluetooth", "sleep", "crossfade", "airplay", "dlna", "gapless",
             "remote_control", "car_mode", "plugins" },
+        custom_music_menu = false,
     }
 end
 
@@ -917,6 +954,7 @@ local function normalize(raw, legacy_enabled)
     if type(raw.drawer_volume_visible) == "boolean" then cfg.drawer_volume_visible = raw.drawer_volume_visible end
     cfg.drawer = valid_order(raw.drawer, DRAWER_KEYS) or cfg.drawer
     cfg.drawer_order = complete_order(raw.drawer_order, cfg.drawer, DRAWER_KEYS)
+    cfg.custom_music_menu = raw.custom_music_menu == true
     return cfg
 end
 
@@ -945,6 +983,7 @@ local function clone_config(source)
         drawer_enabled = source.drawer_enabled,
         drawer_eq_visible = source.drawer_eq_visible,
         drawer_volume_visible = source.drawer_volume_visible,
+        custom_music_menu = source.custom_music_menu,
     }
     for _, key in ipairs(source.home) do out.home[#out.home + 1] = key end
     for _, key in ipairs(source.home_order) do out.home_order[#out.home_order + 1] = key end
@@ -988,13 +1027,25 @@ local function set_order_config(field, order_field, visible_order, full_order)
     return save_config(candidate)
 end
 
+local function generate_home_order_list()
+    local home_order = {}
+    for _, key in ipairs(config.home) do
+        -- Replace the music entry with the custom music menu
+        if key == "music" and config.custom_music_menu then
+            home_order[#home_order + 1] = "kids_music"
+        else
+            home_order[#home_order + 1] = key
+        end
+    end
+    -- Recovery is deliberately outside the editable list and always last.
+    home_order[#home_order + 1] = "kids_parent"
+    return home_order
+end
+
 local function apply_layout()
     if not config.enabled then return end
 
-    local home_order = {}
-    for _, key in ipairs(config.home) do home_order[#home_order + 1] = key end
-    -- Recovery is deliberately outside the editable list and always last.
-    home_order[#home_order + 1] = "kids_parent"
+    home_order = generate_home_order_list()
     if plugin.has_capability("ui.home_layout") then
         plugin.set_home_layout({
             { key = "kids_parent" }, -- the theme's own tile, like every other
@@ -1093,6 +1144,9 @@ local function show_settings()
         editor_row(tr("Home items"), HOME_KEYS, "home", "home_order"),
         editor_row(tr("Music menus"), MUSIC_KEYS, "music", "music_order"),
         editor_row(tr("Music shortcuts"), SHORTCUT_KEYS, "shortcuts", "shortcuts_order"),
+        { type = "toggle", label = tr("Picture-Only Music Menu"), value = config.custom_music_menu, on_change = function(value)
+            set_config_field("custom_music_menu", value)
+        end },
         { type = "toggle", label = tr("Quick Drawer"), value = config.drawer_enabled, on_change = function(value)
             set_config_field("drawer_enabled", value)
         end },
@@ -1123,11 +1177,13 @@ local function show_settings()
             plugin.reload_ui()
         end },
         { type = "row", label = tr("About Kids Mode"), on_select = function()
-            plugin.show_list(tr("Kids Mode limits"), {
-                tr("Kids Mode controls navigation only."),
-                tr("Playback buttons and Now Playing remain available."),
-                tr("Hiding drawer items does not change volume, Wi-Fi, Bluetooth, radio, or timers."),
-            }, function() end)
+            plugin.show_text_view(tr("Kids Mode"), tr("Limits:") .. "\n"
+            .. "- " .. tr("Kids Mode controls navigation only.") .. "\n"
+            .. "- " .. tr("Playback buttons and Now Playing remain available.") .. "\n"
+            .. "- " .. tr("Hiding drawer items does not change volume, Wi-Fi, Bluetooth, radio, or timers.") .. "\n"
+            .. "\n"
+            .. tr("Picture-Only Music Menu") .. ":" .. "\n"
+            .. tr("Picture-Only Music Menu allows you to have a <track>.png file beside each track to help kids that are unable to read. Note: picture heavy menus are performance heavy, make sure that the library isn't too large and the pictures and covers are palettized and small images."))
         end },
     })
 end
@@ -1166,10 +1222,217 @@ local function prompt_parent_pin()
     end)
 end
 
+--
+-- Picture-Only Music Menu
+--
+
+local function create_music_menu()
+    local ALBUM_PAGESIZE = 15
+    local TRACK_PAGESIZE = 15
+    local COVER_PX = 480
+    local GRID_COLUMNS = 2
+    local MARKER_SKIP_TRACK_SELECTION = "skip_track_selection"
+
+    local grid = { handle = nil, offset = 0, page = 0, albums = {}, icons = {}, targets = {}, has_prev = false, has_next = false }
+    local absolute_root = nil
+    local load_page
+
+    -- Names of the files in a folder, cached per folder in `cache`.
+    local function folder_names(folder, cache)
+        local names = cache[folder]
+        if not names then
+            names = {}
+            for _, entry in ipairs(plugin.list_dir(folder)) do
+                if not entry.dir then names[entry.name] = true end
+            end
+            cache[folder] = names
+        end
+        return names
+    end
+
+    local function skip_track_selection(paths)
+        local folder = paths[1] and paths[1]:match("^(.*)/[^/]*$")
+        if not folder or folder == "" then return false end
+        return folder_names(folder, {})[MARKER_SKIP_TRACK_SELECTION] == true
+    end
+
+    -- Album cover paths are absolute, while library paths can be relative to the
+    -- working directory (./music/...). The directory holding .compas is learned
+    -- from the first cover that loads, to make relative image paths absolute.
+    local function learn_absolute_root(cover_path)
+        absolute_root = absolute_root or cover_path:match("^(/.*)/%.compas/albumart/")
+    end
+
+    local function to_absolute(path)
+        if plugin.has_capability("filesystem.realpath") then return plugin.realpath(path) end
+
+        if path:sub(1, 1) == "/" then return path end
+        local root = plugin.sd_root():gsub("^%./", ""):gsub("/$", "")
+        local relative = path:gsub("^%./", "")
+        if relative:sub(1, #root + 1) == root .. "/" then
+            relative = relative:sub(#root + 2)
+        end
+        return "../" .. relative
+    end
+
+    -- A track's picture sits next to it with the same name and a .png extension.
+    local function track_image(path, cache)
+        local folder, file = path:match("^(.*)/([^/]*)$")
+        if not folder then return nil end
+        local image = (file:gsub("%.[^.]*$", "")) .. ".png"
+        return folder_names(folder, cache)[image] and to_absolute(folder .. "/" .. image) or nil
+    end
+
+    local function update_track_image()
+        if not plugin.has_capability("ui.now_playing.set_image") then return end
+        local ok, err = pcall(function()
+            local path = plugin.get_current_track_path()
+            local image = path and not path:match("^%a[%w+.-]*://") and track_image(path, {}) or nil
+            ret = plugin.now_playing.set_image("plugin_track_image", image)
+        end)
+        if not ok then
+            plugin.now_playing.set_image("plugin_track_image", nil)
+        end
+    end
+
+    local function album_track_paths(album)
+        local song = plugin.library_get_song(album.first_song_id)
+        local artist = album.album_artist
+        if not artist or artist == "" then artist = song and song.artist or "" end
+        return plugin.get_album_tracks(artist, album.name) or {}
+    end
+
+    local function open_album(album)
+        local paths = album_track_paths(album)
+        if #paths == 0 then
+            plugin.show_toast("No songs found")
+            return
+        end
+        local cache = {}
+        if skip_track_selection(paths) then
+            plugin.play_list(paths, 1)
+            return
+        end
+        -- The card-preview pixel budget only holds about one page of images,
+        -- so long albums are paged like the album grid itself. Pages must
+        -- replace the same list in place: stacked pages would keep their
+        -- decoded pixels alive and exhaust the budget anyway.
+        local tracks = { handle = nil, offset = 0, targets = {} }
+        local render_tracks
+        local function on_track_select(index)
+            local target = tracks.targets[index]
+            if target == "prev" then
+                render_tracks(tracks.offset - TRACK_PAGESIZE)
+            elseif target == "next" then
+                render_tracks(tracks.offset + TRACK_PAGESIZE)
+            elseif target then
+                plugin.play_list(paths, target)
+            end
+        end
+        render_tracks = function(offset)
+            local items = {}
+            tracks.targets = {}
+            tracks.offset = offset
+            local function add(item, target)
+                items[#items + 1] = item
+                tracks.targets[#items] = target
+            end
+            local last = math.min(offset + TRACK_PAGESIZE, #paths)
+            if offset > 0 then add({ label = "Previous", icon = "back.png"}, "prev") end
+            for i = offset + 1, last do
+                local path = paths[i]
+                local meta = plugin.get_track_metadata(path)
+                local title = meta and meta.title or ""
+                add({
+                    label = title ~= "" and title or path:match("([^/]+)$"),
+                    icon = track_image(path, cache),
+                }, i)
+            end
+            if last < #paths then add({ label = "Next", icon = "chevron-right.png" }, "next") end
+            local options = { layout = "grid", columns = GRID_COLUMNS, replace = tracks.handle }
+            tracks.handle = plugin.show_list(album.name, items, on_track_select, options)
+                or plugin.show_list(album.name, items, on_track_select,
+                    { layout = "grid", columns = GRID_COLUMNS })
+        end
+        render_tracks(0)
+    end
+
+    local function on_select(index)
+        local target = grid.targets[index]
+        if target == "prev" then
+            load_page(grid.offset - ALBUM_PAGESIZE)
+        elseif target == "next" then
+            load_page(grid.offset + ALBUM_PAGESIZE)
+        elseif target then
+            open_album(target)
+        end
+    end
+
+    local function render()
+        local items = {}
+        grid.targets = {}
+        local function add(item, target)
+            items[#items + 1] = item
+            grid.targets[#items] = target
+        end
+        for i, album in ipairs(grid.albums) do add({ label = album.name, icon = grid.icons[i] }, album) end
+        if grid.has_prev then add({ label = "Previous", icon = "back.png" }, "prev") end
+        if grid.has_next then add({ label = "Next", icon = "chevron-right.png" }, "next") end
+        grid.handle = plugin.show_list("Music", items, on_select, { layout = "grid", columns = GRID_COLUMNS, replace = grid.handle })
+            or plugin.show_list("Music", items, on_select, { layout = "grid", columns = GRID_COLUMNS })
+    end
+
+    local function request_covers(page)
+        if not plugin.has_capability("library.album_cover") then return end
+        for i, album in ipairs(grid.albums) do
+            plugin.library_album_cover_async(album.first_song_id, COVER_PX, function(path)
+                if path then learn_absolute_root(path) end
+                if not path or page ~= grid.page then return end
+                grid.icons[i] = path
+                if grid.handle and plugin.is_list_showing(grid.handle) then render() end
+            end)
+        end
+    end
+
+    load_page = function(offset)
+        local rows = plugin.library_get_albums(offset, ALBUM_PAGESIZE + 1) or {}
+        if #rows == 0 then
+            plugin.show_toast("No albums found")
+            return
+        end
+        grid.offset = offset
+        grid.page = grid.page + 1
+        grid.has_prev = offset > 0
+        grid.has_next = #rows > ALBUM_PAGESIZE
+        grid.albums = {}
+        grid.icons = {}
+        for i = 1, math.min(#rows, ALBUM_PAGESIZE) do grid.albums[i] = rows[i] end
+        render()
+        request_covers(grid.page)
+    end
+
+    return { open = function() load_page(0) end, update_track_image = update_track_image }
+end
+
+local music_menu = create_music_menu()
+
 plugin.register_home_tile("kids_parent", tr("Parent Mode"), prompt_parent_pin, "launcher/sys_set.png")
+plugin.register_home_tile("kids_music", tr("Music"), music_menu.open, "launcher/music.png")
 
 plugin.register_list_item("settings", tr("Kids Mode"), function()
     if config.enabled then prompt_parent_pin() else show_settings() end
 end)
+
+if plugin.has_capability("ui.player_layout_xml") then
+    plugin.set_player_layout({
+        xml = "KidsMode/player_layouts/kidsmode.xml", name = "KidsMode",
+        flat = true, bg_color = "0x000000"
+    })
+end
+
+if plugin.has_capability("ui.now_playing.set_image") then
+    plugin.on("track_started", music_menu.update_track_image)
+    music_menu.update_track_image()
+end
 
 apply_layout()

@@ -1,5 +1,11 @@
 {
-  "description": "Choose and reorder visible Home entries, Music menus, shortcuts and Quick Drawer controls, with parent PIN recovery. Hiding controls does not turn off device features. This is not a full device lock.",
+  "description": "Choose and reorder visible Home entries, Music menus, shortcuts and Quick Drawer controls, with parent PIN recovery. Hiding controls does not turn off device features.",
   "category": "Customization",
-  "author": "Markus Seidl"
+  "author": "Markus Seidl",
+  "files": [
+    {
+      "src": "player_layouts/kidsmode.xml",
+      "dest": ".plugins/KidsMode/player_layouts/kidsmode.xml"
+    }
+  ]
 }
